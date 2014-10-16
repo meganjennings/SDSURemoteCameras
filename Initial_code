@@ -1,0 +1,1 @@
+exiftool -csv -r -subject -HierarchicalSubject -DateTimeOriginal -MoonPhase -AmbientTemperature -UserLabel -ext .jpg * > imagedata.csv
